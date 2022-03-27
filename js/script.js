@@ -1,7 +1,7 @@
 data = [
   {
     id: 1,
-    nombre: "Clase de Ingles",
+    nombre: "Clase de Inglés",
     precio: "$250",
     imagen: "mate3.jpg",
     descripcion:
@@ -31,7 +31,7 @@ data = [
   },
   {
     id: 2,
-    nombre: "Clase de Matematicas",
+    nombre: "Clase de Matemáticas",
     precio: "$300",
     imagen: "mate3.jpg",
     descripcion:
@@ -61,7 +61,7 @@ data = [
   },
   {
     id: 3,
-    nombre: "Clase de Frances",
+    nombre: "Clase de Francés",
     precio: "$200",
     imagen: "mate3.jpg",
     descripcion:
@@ -72,7 +72,7 @@ data = [
         Apellido: "Perez",
       },
       {
-        nombre: "Ramon",
+        nombre: "Ramón",
         Apellido: "Fernandez",
       },
       {
@@ -83,7 +83,7 @@ data = [
   },
   {
     id: 4,
-    nombre: "Clase de Algebra",
+    nombre: "Clase de Álgebra",
     precio: "$350",
     imagen: "mate3.jpg",
     descripcion:
@@ -132,7 +132,7 @@ data = [
         Apellido: "Perez",
       },
       {
-        nombre: "Ramon",
+        nombre: "Ramón",
         Apellido: "Perez",
       },
       {
