@@ -1,7 +1,7 @@
 <?php
 include 'conexion.php';
-include 'index.html';
-include 'registro.html';
+//include 'index.html';
+//include 'registro.html';
 
 /*
 Puedo escribir en la base de datos con lo siguiente
