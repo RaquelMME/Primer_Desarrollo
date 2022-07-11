@@ -13,6 +13,14 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
 
   <link rel="stylesheet" href="../css/style.css?ver=1.1" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- Para que funcione los iconos de las redes sociales -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+  <i class="fa fa-instagram" id="insta" aria-hidden="true"></i>
+
   <script type="text/javascript" src="../js/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -23,6 +31,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+  <script>"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"</script>
+  <script>"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"</script>
+
 </head>
 
 <body class="divContenedorGlobal">
@@ -56,10 +67,53 @@
               <input id="password" type="password" class="form-control" id="pwd" placeholder="Contraseña"
                 aria-label="Contraseña" />
             </div>
-            <button class="btnInicio" type="button" class="btn btn-default" onclick="ingresar()">
-              Ingresar
-            </button>
+            <div class="row px-3 mb-4">
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input id="chk1" type="checkbox" name="chk" class="custom-control-input">
+                <label for="chk1" class="custom-control-label text-sm">Remember me</label>
+              </div>
+              <a href="#" class="ml-auto mb-0 text-sm">Forgot Password?</a>
+            </div>
+            <div class="col-md-12">
+              <button type="button" class="btn btn-primary" class="btnIngresar" onclick="ingresar()">
+                Ingresar
+              </button>
+              <div class="row mb-4 px-3">
+                <small class="font-weight-bold">Don't have an account? <a href="registro.html"
+                    class="text-danger ">Register</a></small>
+              </div>
+            </div>
+            
           </form>
+          <div>
+            <div class="divFooter">
+              <ul>
+                <li>
+                  <a class="iFacebook" href="https://www.facebook.com" target="_blank">
+                    <i class="fab fa-facebook-square"></i></a>
+                </li>
+                <li>
+                  <a class="iTwitter" href="https://twitter.com" target="_blank">
+                    <i class="fab fa-twitter"> </i></a>
+                </li>
+
+                <li>
+                  <a class="iYoutube" href="https://youtube.com" target="_blank"><i class="fab fa-youtube"> </i></a>
+                </li>
+                <li>
+                  <a class="iInstagram" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram">
+                    </i></a>
+                </li>
+                <li>
+                  <a class="iLinkedin" href="https://www.linkedin.com" target="_blank">
+                    <i class="fab fa-linkedin"> </i></a>
+                </li>
+              </ul>
+              <div class="divFooter">
+                <small>Copyright &copy; 2022. All rights reserved.</small>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
