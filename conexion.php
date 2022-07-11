@@ -12,6 +12,7 @@ if(mysqli_connect_errno()){
 }else{
     echo "se conecto de forma correcta";
 }
+/*
 $consultas = mysqli_query( $conexion, "select * from usuarios");
 $listadoArray = mysqli_fetch_assoc($consultas);
 
@@ -21,6 +22,8 @@ if(!$listadoArray) {
 }
 
 echo $listadoArray['apellido'];
+*/
+
 
 // $consultas = mysqli_query($conexion, "select * from usuarios");
 // echo "<pre>";
